@@ -1,0 +1,24 @@
+@SuperHeroAPI_HostAddress = https://localhost:7105
+
+GET {{SuperHeroAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{SuperHeroAPI_HostAddress}}/weatherforecast
+
+###
+
+GET {{SuperHeroAPI_HostAddress}}/api/superhero
+
+###
+
+
+POST {{SuperHeroAPI_HostAddress}}/api/superhero
+Content-Type: application/json
+
+{
+  //SuperHero
+}
+
+###
